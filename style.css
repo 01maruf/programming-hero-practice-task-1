@@ -74,8 +74,32 @@ font-weight: 800;
  /* banner section end */
  /* about-container section start here */
  .about-container{ 
-    width: 1000px;
+    width: 800px;
     height: 80vh;
-    background-color: aquamarine;
-    margin: auto ;
+    background-color: antiquewhite;
+    margin: auto;
+   
+ }
+ .about-para{ 
+   margin-top:50px ;
+   text-align: center;
+   padding: 20px;
+
+ }
+ .addressbar{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+ }
+ .addressbar h6{ 
+   color: gray;
+   font-size:16px ;
+   
+ }
+ .addressbar p{ 
+   font-weight: bold;
+ }
+ .all{ 
+   text-align: center;
  }
