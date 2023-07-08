@@ -7,11 +7,13 @@ font-family: 'Poppins', sans-serif;
    color: #FD6E0A;
 }
 
-/* nav related style css */
+/* nav related style start */
 nav{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:darkgrey;
+    padding-left: 50px;
 }
 .nav-logo{ 
 color: #181818;
@@ -30,8 +32,9 @@ font-weight: 800;
  }
  nav li a{ 
     text-decoration: none;
-    color: gray;
+    color:#fff;
  }
+ /* nav related style end */
  .btn{ 
     border-radius: 5px;
     background: #FD6E0A;
@@ -41,4 +44,38 @@ font-weight: 800;
     font-style: normal;
     font-weight: 500;
     padding: 15px;
+ }
+  /* banner section start */
+ .banner{ 
+    padding-left: 50px;
+   background-color:bisque;
+   display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+   
+ 
+ }
+ .profile-img{ 
+    height: 700px;
+    width: 500px;
+    margin-right: 80px;
+   
+
+ }
+ .text-getting{ 
+    color: gray;
+    margin-bottom: 70px;
+ }
+ .text-heading{ 
+    font-weight: 700;
+    font-size: 40px;
+ }
+ /* banner section end */
+ /* about-container section start here */
+ .about-container{ 
+    width: 1000px;
+    height: 80vh;
+    background-color: aquamarine;
+    margin: auto ;
  }
