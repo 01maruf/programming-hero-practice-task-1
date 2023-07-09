@@ -144,7 +144,7 @@ font-weight: 800;
  /* summary section start here  */
  .Summary{ 
    width: 800px;
-   height: 80vh;
+   /* height: 80vh; */
    margin: auto;
  }
  .summary-iteam-01{ 
@@ -161,3 +161,26 @@ font-weight: 800;
    margin-left: 40%;
   }
  /* summary section end here  */
+ /* footer section start here */
+ footer{ 
+   background-color:#FFF8F3 ;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+ }
+ .footer-doc{ 
+   border: 2px solid salmon;
+   padding: 20px;
+ }
+ input{
+   height: 25px;
+   width: 250px;
+   border-radius:10px ;
+   border: none;
+   -webkit-border-radius:10px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+}
+ /* footer section end here */
